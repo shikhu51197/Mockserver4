@@ -1,42 +1,64 @@
-{"user":[
-  {   
-      "id":1,
-      "username":"prince singh",
-      "avatar":"https://images.unsplash.com/photo-1678854354576-1d7504664911?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
-      "email":"princeranu98@gmail.com",
-      "password":"123456",
-      "addblog":[
-          {
-              "id":1,
-              "username":"prince singh",
-              "title":"the blog",
-              "content":"this is a blog",
-              "Category":"tech",
-              "date":"2017-06-01"
-          }
-      ]
-
-  }
-],
-"signin":[
-  {
-      "id":1,
-      "email":"princeranu98@gmail.com",
-      "password":"123456"
-  }
-],
-"viewblog":[
-  {
-      "id" : 1,
-  "username": "coreyschafer",
-  "title": "the blog",
-  "content": "this is a blog",
-      "category" : "tech",
-      "date" : "2017-06-01",
-      "likes" : 24,
-      "comments" : [
-          {"id":1,"username" : "Jane", "content" : "Good One"}
-      ]
-}
-]
+{
+    "user": [
+        {
+            "id": 1,
+            "username": "prince singh",
+            "avatar": "https://images.unsplash.com/photo-1678854354576-1d7504664911?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+            "email": "princeranu98@gmail.com",
+            "password": "123456",
+            "addblog": [
+                {
+                    "id": 1,
+                    "username": "prince singh",
+                    "title": "the blog",
+                    "content": "this is a blog",
+                    "Category": "tech",
+                    "date": "2017-06-01"
+                }
+            ]
+        }
+    ],
+    "signin": [
+        {
+            "id": 1,
+            "email": "princeranu98@gmail.com",
+            "password": "123456"
+        }
+    ],
+    "viewblog": [
+        {
+            "id": 1,
+            "username": "coreyschafer",
+            "title": "the blog",
+            "content": "this is a blog",
+            "category": "tech",
+            "date": "2017-06-01",
+            "likes": 24,
+            "comments": [
+                {
+                    "id": 1,
+                    "username": "Jane",
+                    "content": "Good One"
+                }
+            ]
+        }
+    ],
+    "hotels": [
+        {
+            "category": "Family",
+            "image_url": "https://www.acaciahotelsmanila.com/wp-content/uploads/2020/09/room-deluxe_70df34c103b85ce7b2b5ff918ab8cf72.jpg",
+            "type_of_room": "AC",
+            "bed_type": "Double",
+            "no_of_persons": "2",
+            "capacity": "3",
+            "cost": "4000",
+            "booked": false
+        }
+    ],
+    "users": [
+        "id": 2,
+        "username": "Shikha Gupta",
+        "email": "shikha51197@gmail.com",
+        "password": "123456"
+    ]
 }
